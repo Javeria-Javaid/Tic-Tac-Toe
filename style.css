@@ -57,13 +57,16 @@ h1 {
             0 0 24px #2a3570;}
 
 .cell.X {
-    color: #f0f;
-    text-shadow: 0 0 3px #f0f, 0 0 14px #f0f, 0 0 48px #f0f;
+    color: #ff2fa0; /* vibrant pink */
+    text-shadow: 0 0 2px #f0f, 0 0 6px #f0f, 0 0 12px #f0f;
 }
 
 .cell.O {
     color: #0ff;
-    text-shadow: 0 0 3px #0ff, 0 0 14px #0ff, 0 0 48px #0ff;
+    text-shadow:
+            0 0 3px #00eaff,
+            0 0 10px #00eaff,
+            0 0 20px #00eaff;
 }
 
 .winner {
