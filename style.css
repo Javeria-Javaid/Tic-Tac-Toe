@@ -36,8 +36,8 @@ h1 {
 }
 
 .cell {
-    background: #111;
-    border: 2px solid #0ff;
+    background: #0a0f29;
+    border: 2px solid #2c347d;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -51,18 +51,19 @@ h1 {
 }
 
 .cell:hover {
-    background: #1a1a1a;
-    box-shadow: 0 0 12px #0ff;
-}
+    background: #0a0f29;
+    box-shadow:
+            0 0 12px #3b4a91,
+            0 0 24px #2a3570;}
 
 .cell.X {
     color: #f0f;
-    text-shadow: 0 0 12px #f0f, 0 0 24px #f0f, 0 0 48px #f0f;
+    text-shadow: 0 0 3px #f0f, 0 0 14px #f0f, 0 0 48px #f0f;
 }
 
 .cell.O {
     color: #0ff;
-    text-shadow: 0 0 12px #0ff, 0 0 24px #0ff, 0 0 48px #0ff;
+    text-shadow: 0 0 3px #0ff, 0 0 14px #0ff, 0 0 48px #0ff;
 }
 
 .winner {
